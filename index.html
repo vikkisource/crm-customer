@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRM</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  
+     <link rel="icon" href="assets/images/crm-favicon.png">
+</head>
+<body>
+    <div class="crm-container">
+        <div class="crm-left-container">
+            <div class="crm-sidenav-bar">
+                <a href="#" class="crm-logo">
+                    <img src="assets/images/crm-logo.png">
+                </a>
+
+                <ul class="crm-nav-bar">
+                    <li class="crm-nav-list">
+                        <a href="#" class="crm-nav-link active" >
+                            <i class="bi bi-box"></i>
+                            <span>Overview</span>
+                        </a>
+                    </li>
+                    <li class="crm-nav-list">
+                        <a href="#" class="crm-nav-link ">
+                            <i class="bi bi-archive"></i>
+                            <span>Report</span>
+                        </a>
+                    </li>
+                    <li class="crm-nav-list">
+                        <a href="#" class="crm-nav-link">
+                            <i class="bi bi-cash-stack"></i>
+                            <span>Revenue</span>
+                        </a>
+                    </li>
+                    <li class="crm-nav-list">
+                        <a href="#" class="crm-nav-link">
+                            <i class="bi bi-box"></i>
+                            <span>Reference</span>
+                        </a>
+                    </li>
+                    <li class="crm-nav-list">
+                        <a href="#" class="crm-nav-link">
+                            <i class="bi bi-person-circle"></i>
+                            <span>Contacts</span>
+                        </a>
+                    </li>
+                    <li class="crm-nav-list">
+                        <a href="#" class="crm-nav-link">
+                            <i class="bi bi-chat-left-dots"></i>
+                            <span>Feedback</span>
+                        </a>
+                    </li>
+                </ul>
+
+
+                <ul class="crm-nav-bar crm-nav-bar2">
+                    <li class="crm-nav-list">
+                        <a href="#" class="crm-nav-link">
+                            <i class="bi bi-gear"></i>
+                            <span>Setting</span>
+                        </a>
+                    </li>
+                    <li class="crm-nav-list">
+                        <a href="#" class="crm-nav-link">
+                            <i class="bi bi-info-circle"></i>
+                            <span>Help Center</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="crm-nav-storage-box">
+                    <img src="assets/images/user5.jpg">
+                    <div class=" crm-storage-user">
+                        <span>Lucia Taylor</span>
+                        <i class="bi bi-chevron-down"></i>
+                    </div>
+                    <p class="crm-user-work-type">HRManager of Atlas</p>
+
+                    <div class="flex align-items-center justify-content-between crm-progress-info" >
+                        <p class="crm-progress-label">My Drive</p>
+                        <p class="crm-progress-value" id="drivestorageprogresslabel">45%</p>
+                    </div>
+                    <div   class="crm-progress progress-bar-green  crm-progress-type1" >
+                                 <div class="crm-progress-value-bar progress-bar-value-green"  id="drivestorageprogressbar">
+                                    
+                                 </div>
+                    </div>
+
+                </div>
+               
+            </div>
+        </div>
+        <div class="crm-right-container">
+            <div class="crm-main-header flex align-item-center justify-content-between">
+                <div class="crm-search-field">
+                    <i class="bi bi-search"></i>
+                    <input type="text" placeholder="Search">
+                </div>
+                <div class="flex align-item-center">
+
+                    <span class="crm-notification-icon"><i class="bi bi-bell"></i></span>
+                    <div class="crm-user-profile flex align-item-center">
+                        <div class="crm-user-profile-img">
+                            <i class="bi bi-person-fill"></i>
+                        </div>
+                        <p>nacid.c6m@gmail.com</p>
+                    </div>
+                </div>
+
+            </div>
+             <div class="crm-main-container ">
+                <div class="flex">
+                <div class="crm-main-left-container">
+                    <div class="crm-task-info-container">
+                        <div class="crm-task-content-box bg-color flex justify-content-between">
+                              <div class="crm-task-content-left ">
+                                <h2 class="crm-content-heading crm-task-heading">Today Task</h2>
+                                <ul class="crm-today-task-list">
+                                    <li>
+                                        <p class="crm-task-name" title="Edit the Landing Page">Edit the Landing Page</p>
+                                        <div class="flex align-items-center justify-content-between">
+                                        <div class="crm-task-activity-info flex">
+                                        <span class="crm-task-sub-info" title="Submitted by Manager department">Submitted by Manager department</span>
+                                        <span class="crm-task-work-hours">12 hours ago</span>
+                                       </div>
+                                        <a href="#" class="crm-task-details">Details <i class="bi bi-chevron-right"></i></a>
+                                    </div>
+                                    </li>
+                                    <li>
+                                        <p class="crm-task-name" title="Edit the Landing Page and animation include of another resources">Edit the Landing Page and animation include of another resources</p>
+                                        <div class="flex align-items-center justify-content-between">
+                                        <div class="crm-task-activity-info flex">
+                                        <span class="crm-task-sub-info" title="Submitted by Manager department">Submitted by CEO</span>
+                                        <span class="crm-task-work-hours">10 hours ago</span>
+                                       </div>
+                                        <a href="#" class="crm-task-details">Details <i class="bi bi-chevron-right"></i></a>
+                                    </div>
+                                    </li>
+                                    <li>
+                                        <p class="crm-task-name">Edit the Landing Page</p>
+                                        <div class="flex align-items-center justify-content-between">
+                                        <div class="crm-task-activity-info flex">
+                                        <span class="crm-task-sub-info" title="Submitted by Manager department">Submitted by Manager </span>
+                                        <span class="crm-task-work-hours">12 hours ago</span>
+                                       </div>
+                                        <a href="#" class="crm-task-details">Details <i class="bi bi-chevron-right"></i></a>
+                                    </div>
+                                    </li>
+                                </ul>
+                              </div>
+                              <div class="crm-task-content-right ">
+                                <div class="flex crm-task-complete-header align-items-center justify-content-between">
+                                    <p>4 task completed out of 10</p>
+                                    <div   class="crm-progress crm-task-progress-bar progress-bar-green  crm-progress-type1" >
+                                        <div class="crm-progress-value-bar crm-task-progress-value progress-bar-value-green"  >
+                                           
+                                        </div>
+                           </div>
+                                </div>
+                                <div class="crm-month-calender">
+                                    <div class="flex justify-content-between align-items-center crm-calender-header">
+                                        <p class="crm-month-name">December</p>
+                                        <div class="flex">
+                                            <p class="crm-month-arrow-icon">
+                                                <i class="bi bi-chevron-left"></i>
+                                            </p>
+                                            <p class="crm-month-arrow-icon">
+                                                <i class="bi bi-chevron-right"></i>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <table class="crm-calender-table">
+                                        <thead>
+                                            <th>S</th>
+                                            <th>M</th>
+                                            <th>T</th>
+                                            <th>W</th>
+                                            <th>T</th>
+                                            <th>F</th>
+                                            <th>S</th>
+                                        </thead>
+                                        <body>
+                                            <tr>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td>1</td>
+                                                <td>2</td>
+                                                <td>3</td>
+                                            </tr>
+                                            <tr>
+                                                <td>4</td>
+                                                <td>5</td>
+                                                <td>6</td>
+                                                <td>7</td>
+                                                <td>8</td>
+                                                <td>9</td>
+                                                <td>10</td>
+                                            </tr>
+                                            <tr>
+                                                <td>11</td>
+                                                <td>12</td>
+                                                <td>13</td>
+                                                <td>14</td>
+                                                <td>15</td>
+                                                <td>16</td>
+                                                <td>17</td>
+                                            </tr>
+                                            <tr>
+                                                <td>18</td>
+                                                <td>19</td>
+                                                <td>20</td>
+                                                <td>21</td>
+                                                <td>22</td>
+                                                <td>23</td>
+                                                <td>24</td>
+                                            </tr>
+                                            <tr>
+                                                <td>25</td>
+                                                <td>26</td>
+                                                <td>27</td>
+                                                <td>28</td>
+                                                <td>29</td>
+                                                <td>30</td>
+                                                <td>31</td>
+                                            </tr>
+                                        </body>
+                                    </table>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <div class="crm-revenue-chart-container box-gap">
+                            <div class="crm-revenue-box  bg-color">
+                                <div class="flex justify-content-between align-items-center">
+                                    <h2 class="crm-content-heading ">Revenue</h2>
+                                    <a href="#" class="crm-viewas-btn">View As</a>
+                                </div>
+                                <ul class="crm-chart2-label-info">
+                                    <li class="flex align-items-center">
+                                        <div class="crm-chart2-label-round chart1-label1-color"></div>
+                                        <p>Total Revenue</p>
+                                    </li>
+                                </ul> 
+                                <div class="crm-revenue-chart-blog">
+                                  
+                                    <img src="assets/images/chart1.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="crm-sales-chart-container box-gap">
+                            <div class="crm-sales-chart-box bg-color">
+                                <div class="flex justify-content-between align-items-center">
+                                    <h2 class="crm-content-heading ">Sales Pipeline</h2>
+                                    <button class="crm-period-value-btn"><span>Weekly</span><i class="bi bi-chevron-down"></i></button>
+                                </div>
+                                <div class="flex align-items-center crm-sales-chart-blog">
+                                    <img src="assets/images/chart2.png">
+                                    <div>
+                                        <ul class="crm-chart2-label-info">
+                                            <li class="flex align-items-center">
+                                                <div class="crm-chart2-label-round chart2-label1-color"></div>
+                                                <p>Sale from store</p>
+                                            </li>
+                                            <li class="flex align-items-center">
+                                                <div class="crm-chart2-label-round chart2-label2-color"></div>
+                                                <p>Sale from Ad</p>
+                                            </li>
+                                            <li class="flex align-items-center">
+                                                <div class="crm-chart2-label-round chart2-label3-color"></div>
+                                                <p>Sale from Search</p>
+                                            </li>
+                                        </ul>       
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <div class="box-gap crm-satification-cotent ">
+                            <div class="bg-color">
+                                <div class="flex justify-content-between align-items-center">
+                                    <h2 class="crm-content-heading ">Satisfaction Rate</h2>
+                                    
+                                </div>
+                                <div class="crm-vote-box flex align-items-center justify-content-between">
+                                    <div class="flex align-items-center">
+                                    <div class="crm-vote-icon">
+                                        <i class="bi bi-pentagon-fill"></i>
+                                    </div>
+                                    <div>
+                                        <p class="crm-vote-count-value">63,745 vote</p>
+                                        <p class="crm-vote-by-text">Vote by Customer</p>
+                                    </div>
+                                   </div>
+                                   <div>
+                                    <p class="crm-vote-count-percentage">78%</p>
+                                    <p class="crm-vote-info-percentage">28 %  <i class="bi bi-arrow-up-right"></i></p>
+                                   </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-gap  crm-renvenue-industry-progress">
+                            <div class="bg-color">
+                            <div class="flex justify-content-between align-items-center">
+                                <h2 class="crm-content-heading ">Revenue by Industry</h2>
+                                <a href="#" class="crm-viewas-btn">View As</a>
+                            </div>
+                            <div>
+                                <div class="crm-revenue-progress">
+                                    <div class="flex align-items-center justify-content-between crm-progress-info" >
+                                        <p class="crm-progress-label">My Facebook</p>
+                                        <p class="crm-progress-value" id="facebookprogresslabel">45%</p>
+                                    </div>
+                                    <div    class="crm-progress progress-bar-blue  crm-progress-type1" >
+                                        <div class="crm-progress-value-bar progress-bar-value-blue"  id="facebookprogressbar">
+                                                    
+                                        </div>    
+                                    </div>
+                                </div>
+
+                                <div class="crm-revenue-progress">
+                                    <div class="flex align-items-center justify-content-between crm-progress-info" >
+                                        <p class="crm-progress-label">Instagram</p>
+                                        <p class="crm-progress-value" id="instagramprogresslabel">45%</p>
+                                    </div>
+                                    <div   class="crm-progress progress-bar-blue  crm-progress-type1" >
+                                                 <div class="crm-progress-value-bar progress-bar-value-red"  id="instagramprogressbar">
+                                                    
+                                                 </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        </div>
+                </div>
+                <div class="crm-main-right-container">
+                    <div class="crm-customer-container box-gap">
+                        <div class="bg-color">
+                            <div class="flex align-items-center justify-content-between crm-customer-header">
+                            <h2 class="crm-content-heading">Top Customer</h2>
+                            <div class="relative">
+                                <button class="crm-period-value-btn" onclick="opendrodown('topcustomerperiodvalue')"><span>Weekly</span><i class="bi bi-chevron-down"></i></button>
+                                <ul class="crm-period-types-list absolute crm-top-customer-periodlist"  id="topcustomerperiodvalue">
+                                    <li>Monthly</li>
+                                    <li>Yearly</li>
+                                    <li>Rated</li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <ul class="crm-customer-list">
+                            <li class="flex justify-content-between" data-customerType="star">
+                                <div class="flex align-items-center">
+                                    <div class="crm-customer-icon" data-customerIcon="red">
+                                         <p>A</p>
+                                    </div>
+                                    <div class="crm-customer-info">
+                                        <p class="crm-customer-name">Ava Corlettte</p>
+                                        <p class="crm-customer-id">43352</p>
+                                    </div>
+                                </div>
+                                <p class="crm-customer-level">Star Member</p>
+                            </li>
+                            <li class="flex justify-content-between" data-customerType="star">
+                                <div class="flex align-items-center">
+                                    <div class="crm-customer-icon" data-customerIcon="blue">
+                                         <p>E</p>
+                                    </div>
+                                    <div class="crm-customer-info">
+                                        <p class="crm-customer-name">Everly Isla</p>
+                                        <p class="crm-customer-id">43352</p>
+                                    </div>
+                                </div>
+                                <p class="crm-customer-level">Star Member</p>
+                            </li>
+                            <li class="flex justify-content-between" data-customerType="gold">
+                                <div class="flex align-items-center">
+                                    <div class="crm-customer-icon" data-customerIcon="blue">
+                                         <p>M</p>
+                                    </div>
+                                    <div class="crm-customer-info">
+                                        <p class="crm-customer-name">Milla Scarlett</p>
+                                        <p class="crm-customer-id">43352</p>
+                                    </div>
+                                </div>
+                                <p class="crm-customer-level">Gold Member</p>
+                            </li>
+
+                            <li class="flex justify-content-between" data-customerType="gold">
+                                <div class="flex align-items-center">
+                                    <div class="crm-customer-icon" data-customerIcon="sky">
+                                         <p>N</p>
+                                    </div>
+                                    <div class="crm-customer-info">
+                                        <p class="crm-customer-name">Nora Hazal</p>
+                                        <p class="crm-customer-id">43352</p>
+                                    </div>
+                                </div>
+                                <p class="crm-customer-level">Gold Member</p>
+                            </li>
+
+                            <li class="flex justify-content-between" data-customerType="silver">
+                                <div class="flex align-items-center">
+                                    <div class="crm-customer-icon" data-customerIcon="blue">
+                                         <p>L</p>
+                                    </div>
+                                    <div class="crm-customer-info">
+                                        <p class="crm-customer-name">Lily Aurora</p>
+                                        <p class="crm-customer-id">43352</p>
+                                    </div>
+                                </div>
+                                <p class="crm-customer-level">Silver Member</p>
+                            </li>
+                            <li class="flex justify-content-between" data-customerType="silver">
+                                <div class="flex align-items-center">
+                                    <div class="crm-customer-icon" data-customerIcon="red">
+                                         <p>N</p>
+                                    </div>
+                                    <div class="crm-customer-info">
+                                        <p class="crm-customer-name">Nova Hannah</p>
+                                        <p class="crm-customer-id">43352</p>
+                                    </div>
+                                </div>
+                                <p class="crm-customer-level">Silver Member</p>
+                            </li>
+                        </ul>
+                        </div>
+                    </div>
+                    <div class="box-gap ">
+                        <div class="bg-color">
+                            <div class="flex justify-content-between align-items-center">
+                                <h2 class="crm-content-heading ">Customer visit Online</h2>
+                                <a href="#" class="crm-viewas-btn">View As</a>
+                            </div>
+                            <div class="crm-customer-online-info flex">
+                                <div class="crm-customer-online-chart-info">
+                                    <p >Total in July</p>
+                                    <h3>34,862</h3>
+                                    <span>2.5 % <i class="bi bi-arrow-up-right"></i></span>
+                                </div>
+                                <img src="assets/images/chart3.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+               
+
+            </div>
+             </div>
+        </div>
+    </div>
+
+
+<script src="assets/script/script.js"></script>
+</body>
+</html>
